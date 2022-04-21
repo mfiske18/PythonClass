@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+img {
+    /*added so images will be same size*/
+    height: 15px;
+    width: 15px;
+}
+
+#container {
+    width: 900px;
+    height:50px;
+    margin: 0 auto;
+    /*centers the nav bar horizontally*/
+
+}
+
+#navbar{
+    background-color: white;
+    color: black;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5px 10px 2px;
+    font-size: x-large;
+}
+
+#navbar2
+{
+    background-color: white;
+    color: black;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5px 10px 2px;
+
+}
+#navbar3
+{
+    background-color: white;
+    color: black;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5px 10px 2px;
+        margin-bottom: 20px;
+ 
+}
+#navbar img {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    /*gets rid of dots in list*/
+    margin: 10px;
+    padding: 10px;
+}
+
+#leaf {
+    background-color: lightseagreen;
+}
+
+#search {
+    padding-top: 10px;
+    height: 50px;
+    width: 600px;
+    font-size: 25px;
+    border-radius: 40%;
+}
+
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20;
+ }
+
+#main-content.discover {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(37, 193, 185);
+}
+
+#main-content.soothing {
+    display: flex;
+    align-items: center;
+    background-color: rgb(52, 242, 232);
+}
+#plants {
+    width: 1000px;
+    height: 150px;
+    background-color: rgb(177, 247, 231);
+}
+li .small-plants {
+   
+height: 75px;
+width:75px;
+    border-radius: 50%;
+}
+#main-divs #main-divs1{
+    width: 800px;
+    height: 250px;
+    padding: 7px;
+
+}
+
+#main-divs h2 {
+    padding-left: 20px;
+    padding-bottom: 40px;
+    color: white;
+
+}
+
+#main-divs.boxes {
+  background-color: rgb(37, 193, 185);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#cookiebar {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    /*relative to it's current position */
+    bottom: 100px;
+    /* move bottom of cookie br up 70px will overlap divs above*/
+    background-color: white;
+    justify-content: space-between;
+    padding: 0 50px;
+    /*add padding to left and right sides */
+    border: 2px solid black;
+}
+
+#cookiebar img {
+    /* buck's was too big */
+    width: 100px;
+    height: 100px;
+}
+
+#cookiebar button {
+    width: 75px;
+    height: 30px;
+    box-shadow: 4px 4px #000;    
+    background-color: rgb(37, 193, 185);
+}
+
+#cookiebar p {
+    width: 500px;
+}
+
+#arrow {
+    height: 30px;
+    width: 50px;
+    padding-top: 30px;
+
+}
+
+#arrow.arrow1 {
+    position: relative;
+    /*relative to it's current position */
+    bottom: 100px;
+    /* move bottom of cookie so it will overlap divs above*/
+    left: 130px;
+}
+
+#arrow.arrow2 {
+    position: relative;
+    /*relative to it's current position */
+    bottom: 55px;
+    /* move bottom of cookie so it will overlap divs above*/
+    left: 120px;
+}
+
+#search-icon {
+    position: relative;
+    /*relative to it's current position */
+    bottom: 80px;
+    /* move bottom of cookie so it will overlap divs above*/
+    left: 700px;
+    height: 115px;
+    width: 10px;
+}
+
+#plant1-image {
+    height: 279px;
+    width: 270px;
+    position: relative;
+    /*relative to it's current position */
+    bottom: 0;
+    /* move bottom of cookie so it will overlap divs above*/
+    right: 13px;
+}
+
+#plant2-image {
+    height: 190px;
+    width: 300px;
+    padding: 0;
+        background-color: white;
+}
+
+#soothing {
+    margin-left: 20px;
+    color: white;
+    height:40px;
+    margin-top:18px;
+}
+
+hr {
+    height: 3px;
+    background-color: darkgrey;
+    margin-bottom: 20px;
+}
+
+

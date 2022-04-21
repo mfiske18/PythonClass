@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+}
+.container {
+    height: 700;
+    width: 350;
+    font-style: "Comic Sans";
+    display: flex;
+     }
+.user-card{
+    width:45%;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.card-header {
+    height: 50px;
+    background-color:teal;
+    margin-bottom: 20px;
+}
+.user-circle {
+  border-radius: 50%;
+  background-color: white;
+  height: 50px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h1,h2,p {
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ h3 {
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+.map-marker{
+    background-color: white;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.settings{
+    background-color: white;
+    height: 20px;
+    margin-left: 30px;
+
+}

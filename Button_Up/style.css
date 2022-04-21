@@ -1,0 +1,35 @@
+/* buttonupstyles.css */
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 75px;   
+  }
+  
+  .button-search {
+    background-color: lightgrey;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+    border-radius: 25px;
+    height: 30px;
+    width: 130px;
+    font-size: 15px; 
+  }
+
+  .button-plus {
+    background-color: lightseagreen;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 50%;
+  }
+
+  .button-CA {
+    background-color: royalblue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 1px black;
+    height: 50px;
+    width: 175px;
+    font-size: 20px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

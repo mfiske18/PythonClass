@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.top {
+    background-color: #333333;
+    margin: 0 auto;
+    width: 50%;
+}
+.feed{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav {
+    width: 400px;
+    margin-left: 30px;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-title {
+    justify-content: left;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin: 10px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    padding-left: 100px;
+}
+
+.col-r, .col-l {
+    flex: 1;
+    align-items: center;
+
+}
+
+.col-l {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    background-color: #fff;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+.small-card {
+}
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+.avatar-s {
+    border-radius: 50%;
+    height: 55px;
+}
+
+.user-line {
+    justify-content: center;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.dates {
+    font-size: 20px;
+    color: #777;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.center {
+    text-align: center;
+    padding:20px;
+  }

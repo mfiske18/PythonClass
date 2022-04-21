@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="nav">
+        <!-- <div class="flex-container"> -->
+        <h1 class="nav-title">DojoWeather</h1>
+        <!-- <div class="flex-container"> -->
+        <div class="nav-links">
+            <ul>
+                <li><a href="#" onclick="alert('Loading weather report')">
+                        <h3>Burbank</h3>
+                    </a></li>
+                <li><a href="#" onclick="alert('Loading weather report')">
+                        <h3>Chicago</h3>
+                    </a></li>
+                <li><a href="#" onclick="alert('Loading weather report')">
+                        <h3>Dallas</h3>
+                    </a></li>
+            </ul>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="nav-city">
+        <!-- <div class="flex-container"> -->
+        <h1 class="nav-city-title">San Jose</h1>
+        <div class="temp-type">show temperature in
+            <select name="temptype" id="temptype" onchange="convertTemp(this)">
+                <option value="celcius">&#176C</option>
+                <option value="farenheit">&#176F</option>
+            </select>
+        </div>
+
+        <!-- </div> -->
+    </div>
+
+    </div>
+
+    <hr>
+
+    <!-- weather boxes -->
+    <div class="row">
+        <!-- <div class="flex-container"> -->
+
+        <!-- 1/4 width column -->
+        <div class="cols">
+
+            <!-- user info card -->
+            <div class="card ">
+                <div class="card-body">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="rain">
+                    <p class="small-text">some rain</p>
+                    <div class="temp" >
+                        <span class="red" id="temp7" >24</span>
+                        <span class="blue" id="temp8">18</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 1/4 width column -->
+        <div class="cols">
+
+            <!-- user info card -->
+            <div class="card ">
+                <div class="card-body">
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="sun">
+                    <p class="small-text">some sun</p>
+                    <div class="temp">
+                        <span class="red" id="temp1">27</span>
+                        <span class="blue" id="temp2">19</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 1/4 width column -->
+        <div class="cols">
+
+            <!-- user info card -->
+            <div class="card ">
+                <div class="card-body">
+                    <h3>Thursday</h3>
+                    <img src="assets/some_clouds.png" alt="clouds">
+                    <p class="small-text">some clouds</p>
+                    <div class="temp">
+                        <span class="red" id="temp3">21</span>
+                        <span class="blue" id="temp4">16</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 1/4 width column -->
+        <div class="cols">
+
+            <!-- user info card -->
+            <div class="card ">
+                <div class="card-body">
+                    <h3>Friday</h3>
+                    <img src="assets/some_sun.png" alt="sun">
+                    <p class="small-text">some sun</p>
+                    <div class="temp">
+                        <span class="red" id="temp5">26</span>
+                        <span class="blue" id="temp6">21</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="cookie-box">
+        <img src="assets/cookie.png" alt="cookie">
+
+
+        <div class="cookie-col1">
+            <div">
+                <div>Stop! Cookie time</div>
+                <p class="small-text"> We use cookies (sadly not the edible ones) to personalize content and ads, to
+                    provide social media
+                    features and to analyse our traffic.
+                </p>
+        </div>
+        <div class="cookie-col2">
+            <button class="btn" onclick="hide(this)">Accept</button>
+        </div>
+
+    </div>
+    <!-- </div> -->
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+
+<body>
+
+    <!-- container = entire page -->
+    <div id="container">
+        <!-- nav bar -->
+        <div id="navbar">
+            <ul>
+                <li><img src="assets/leaf.png" alt="leaf" id="leaf"></li>
+                <li>
+                    <h1>EasyBay</h1>
+                </li>
+                <li><input id="search" type="text" placeholder="    Search for Anything"></li>
+                <li>Sign In</li>
+                <li><a href="" onclick="alert('Your cart is empty')"><img src="assets/cart-dark.png" alt="cart"></a>
+                </li>
+            </ul>
+            <img id="search-icon" src="assets/search-dark.png" alt="">
+        </div>
+        <div id="navbar2">
+            <ul>
+                <li>
+                    <h3>Aeonium</h3>
+                </li>
+                <li>
+                    <h3>Andormischus</h3>
+                </li>
+                <li>
+                    <h3>Agave</h3>
+                </li>
+                <li>
+                    <h3>Aloe</h3>
+                </li>
+                <li>
+                    <h3>Anacampseros</h3>
+                </li>
+                <li>
+                    <h3>Aristaloe</h3>
+                </li>
+                <li>
+                    <h3>More...</h3>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div id="navbar3">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <div id="main-content">
+            <div id="main-divs" class="boxes">
+                <div>
+                    <h2>Discover succulent varieties one pot or rack at a time!</h2>
+                    <div class="discover">
+                        <h2>Discover</h2>
+                        <img id="arrow1" src="assets/arrow-light.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="main-divs1">
+                <img id="plant1-image" onmouseover="changePic(this)" onmouseout="changePic(this)" alt=""
+                    src="assets/succulents-1.jpg">
+            </div>
+            <div id="main-divs2" class="boxes">
+                <img id="plant2-image" src="assets/aloe-m.jpg" alt="">
+                <div id="soothing">
+                    <h4>Soothing Aloe</h4>
+                    <img id="arrow2" src="assets/arrow-light.png" alt="">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="main-content2">
+            <ul id="plants">
+                <li><img class="small-plants" src="assets/aeonium-s.jpg" alt="leaf">Aeonium</li>
+                <li><img class="small-plants" src="assets/aloe-s.jpg" alt="leaf">Aloe</li>
+                <li><img class="small-plants" src="assets/cactus-s.jpg" alt="leaf">Cactus</li>
+                <li><img class="small-plants" src="assets/echeveria-s.jpg" alt="leaf">Echeveria</li>
+                <li><img class="small-plants" src="assets/sedum-s.jpg" alt="leaf">Sedum</li>
+                <li><img class="small-plants" src="assets/sempervivum-s.jpg" alt="leaf">Sempervivum</li>
+
+            </ul>
+        </div>
+        <div id="cookiebar">
+            <img src="assets/alert-dark.png" alt="alert">
+            <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our
+                <a href="">cookie policy</a>
+            </p>
+            <button onclick="remove()">I accept</button>
+        </div>
+        <script src="scripts.js"></script>
+
+    </div>
+</body>
+
+</html>

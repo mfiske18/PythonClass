@@ -1,0 +1,76 @@
+
+    <h2>Registration Form</h2> 
+    
+    <form action="/process" method="post">
+        <div>
+            <label>First Name*: </label>
+            <input type="text" name="firstName">
+        </div>
+        <br>    
+        <div>
+            <label>Last Name * </label>
+            <input type="text" name="lastName">
+        </div>
+        <br>    
+        <div>
+            <label>Email </label>
+            <input type="text" name="email">
+        </div>
+        <br>    
+        <div>
+            <label>Password * </label>
+            <input type="password" name="password" >
+        </div>
+        <br>    
+        <div>
+            <label>Confirm Password * </label>
+            <input type="password" name="confirmPassword">
+        </div>
+        <div>
+            <br>    
+            <label>Birthday:</label>
+            <input type="date" name="birthday" 
+            placeholder="mm/dd/yyyy" >
+        </div>
+        <br>    
+        <div>
+            <label>Gender Identity:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="non-binary" name="non-binary" value="Non-Binary">
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" id="noanswer" name="gender" value="Prefer not to answer">
+            <label for="noanswer">Prefer not to answer</label>                       
+        </div>
+        <br>    
+        <div>
+            <label for="description">A short description about myself: </label>
+            <br>
+            <textarea id="description" name="description" rows="2" cols="50"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="language">Favorite Language:</label>
+            <select name="language" id="language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="saab">Python</option>
+                <option value="C++">C++</option>
+                <option value="Pascal">Pascal</option>
+              </select>
+        </div>
+        <br>        
+        <br>
+        <div>
+            <input type="checkbox" name="updates" 
+            id="updates" checked >
+            <label for="updates">I would like 
+            to receive email offers!</label>
+        </div>
+        <br>
+        <input type="submit" value="Create Account" >
+        <br>
+        *Indicates a required
+    </form>
+    

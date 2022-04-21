@@ -1,0 +1,257 @@
+CSS Selectors
+
+<div class="table">
+    <plate />
+    <plate />
+</div>
+
+sector for 2 plates = plate
+
+<div class="table">
+    <bento />
+    <plate />
+    <bento />
+</div>
+
+selector for bento boxes = bento
+
+<div class="table">
+    <plate id="fancy" />
+    <plate />
+    <bento />
+</div>
+
+selector for fancy plate = #fancy
+
+<div class="table">
+    <bento />
+    <plate>
+        <apple />
+    </plate>
+    <apple />
+</div>
+
+selector for apple on plate = plate apple
+
+<div class="table">
+    <bento>
+        <orange />
+    </bento>
+    <plate id="fancy">
+        <pickle />
+    </plate>
+    <plate>
+        <pickle />
+    </plate>
+</div>
+
+pickle on fancy plate = #fancy pickle
+
+<div class="table">
+    <apple />
+    <apple class="small" />
+    <plate>
+        <apple class="small" />
+    </plate>
+    <plate />
+</div>
+
+two small apples = .small
+
+<div class="table">
+    <apple />
+    <apple class="small" />
+    <bento>
+        <orange class="small" />
+    </bento>
+    <plate>
+        <orange />
+    </plate>
+    <plate>
+        <orange class="small" />
+    </plate>
+</div>
+
+two small oranges = orange.small
+
+<div class="table">
+    <bento>
+        <orange />
+    </bento>
+    <orange class="small" />
+    <bento>
+        <orange class="small" />
+    </bento>
+    <bento>
+        <apple class="small" />
+    </bento>
+    <bento>
+        <orange class="small" />
+    </bento>
+</div>
+
+small oranges in bento = bento orange.small
+
+<div class="table">
+    <pickle class="small" />
+    <pickle />
+    <plate>
+        <pickle />
+    </plate>
+    <bento>
+        <pickle />
+    </bento>
+    <plate>
+        <pickle />
+    </plate>
+    <pickle />
+    <pickle class="small" />
+</div>
+
+large pickles on plates and bento = bento, plate
+
+<div class="table">
+    <apple />
+    <plate>
+        <orange class="small" />
+    </plate>
+    <bento />
+    <bento>
+        <orange />
+    </bento>
+    <plate id="fancy" />
+</div>
+
+all items = *
+
+<div class="table">
+    <plate id="fancy">
+        <orange class="small" />
+    </plate>
+    <plate>
+        <pickle />
+    </plate>
+    <apple class="small" />
+    <plate>
+        <apple />
+    </plate>
+</div>
+
+items on plates = plate *
+
+<div class="table">
+    <bento>
+        <apple class="small" />
+    </bento>
+    <plate />
+    <apple class="small" />
+    <plate />
+    <apple />
+    <apple class="small" />
+    <apple class="small" />
+</div>
+
+small and large item in middle of table directly follow plate = plate + apple
+
+<div class="table">
+    <pickle />
+    <bento>
+        <orange class="small" />
+    </bento>
+    <pickle class="small" />
+    <pickle />
+    <plate>
+        <pickle />
+    </plate>
+    <plate>
+        <pickle class="small" />
+    </plate>
+</div>
+
+Pickles on table after bento
+
+bento ~ pickle
+
+<div class="table">
+    <plate>
+        <bento>
+            <apple />
+        </bento>
+    </plate>
+    <plate>
+        <apple />
+    </plate>
+    <plate />
+    <apple />
+    <apple class="small" />
+</div>
+
+2nd circle on plate (direct child of plate)=plate > apple
+
+<div class="table">
+    <bento />
+    <plate />
+    <plate>
+        <orange />
+        <orange />
+        <orange />
+    </plate>
+    <pickle class="small" />
+</div>
+
+top orange = plate orange:first-child note the 1st orange shows up at the top of the stack
+
+<div class="table">
+    <plate>
+        <apple />
+    </plate>
+    <plate>
+        <pickle />
+    </plate>
+    <bento>
+        <pickle />
+    </bento>
+    <plate>
+        <orange class="small" />
+        <orange />
+    </plate>
+    <pickle class="small" />
+</div>
+
+apple and pickle on plate = plate apple, plate pickle
+
+<div class="table">
+    <plate id="fancy">
+        <apple class="small" />
+    </plate>
+    <plate />
+    <plate>
+        <orange class="small" />
+        <orange />
+    </plate>
+    <pickle class="small" />
+</div>
+
+small apple small pickle = apple.small, pickle.small
+
+<div class="table">
+    <plate />
+    <plate />
+    <plate />
+    <plate id="fancy" />
+</div>
+
+3rd plate = plate:nth-child(3)
+
+<div class="table">
+    <plate />
+    <bento />
+    <plate>
+        <orange />
+        <orange />
+        <orange />
+    </plate>
+    <bento />
+</div>
+
+1st bento = div:nth-child(2)

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+     </style>
+    <meta name="author" content="Martha Fiske">
+    <title>Martha's Portfolio Page</title>
+
+    <h1>Martha Fiske</h1>
+    <img src="img/mf.png" alt="" width="70" height="70">
+
+    <h2>About Me:</h2>
+    <p>I live in San Diego.  I have 2 awesome sons, and a cat. I love being outdoors enjoying activities like:
+        <ul>
+            <li>Bike Riding</li>
+            <li>Hiking</li>
+            <li>Kayaking</li>   
+            <li>Dirt Bike Riding</li>         
+        </ul>
+    </p>
+
+    <br>
+    <br>
+
+        <img src="img/gh.png" alt="github" width="35" height="35">
+        <a href="https://github.com/mfiske18"> my github</a>
+
+        <img src="img/in.png" alt="linkedin" width="35" height="35">
+        <a href="https://www.linkedin.com/in/martha-fiske-6a40a917/"> my linkedin</a>
+
+        <img src="img/email.png" alt="email" width="40" height="35">
+
+        <a href="mailto:marthafiske@yahoo.com">my email</a>
+ 
+    <br><br>
+
+    <iframe src="https://giphy.com/embed/26BGIqWh2R1fi6JDa" width="240" height="180" class="giphy-embed"
+        allowFullScreen></iframe>
+    <p><a href="https://giphy.com/gifs/jerseydemic-26BGIqWh2R1fi6JDa">via GIPHY</a></p>
+    <H2>Technologies</H2>
+    <table>
+        <tr font-weight: bold;>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>REST</td>
+        </tr>
+    </table>
+    <form action="/process" method="post">
+
+             <h3>
+                Contact Me
+            </h3>
+            <label>Name: &nbsp;</label>
+            <input type="text" name="name">
+            <label>&nbsp;&nbsp;&nbsp;Email: &nbsp;</label>
+            <input type="text" name="email"><br><br>
+            <label>Message: &nbsp;</label><br>
+            <textarea id="message" name="message" rows="2" cols="50"></textarea>
+ 
+        <br>
+        <input type="submit" value="Send Message">
+        <br>
+    </form>
+
+
+</html>

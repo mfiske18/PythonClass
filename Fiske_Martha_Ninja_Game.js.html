@@ -1,0 +1,51 @@
+
+<html>
+    <body>
+        <div id='background'>
+            <div id='character' style='position:absolute; top:100px; left:450px; background-image: url("img/jake.png"); width:125px; height:115px;'></div>
+        </div>
+                <script type="text/javascript">
+            var leftValue = 450, topValue = 100, rightValue = 900, bottomValue = 400;
+            function update(){
+                document.getElementById("character").style.left = leftValue+"px";
+                document.getElementById("character").style.top = topValue+"px";
+            }
+            document.onkeydown = function(e) {
+                console.log('e: ', e); 
+                console.log('e.keyCode: ', e.keyCode);
+                if (e.keyCode == 37) { // LEFT
+                    leftValue = leftValue - 10;
+                }
+                else if (e.keyCode == 39) { // RIGHT
+                    leftValue = leftValue + 10;         
+                }
+                else if (e.keyCode == 40) { // DOWN
+                    topValue = topValue + 10;
+                }
+                else if (e.keyCode == 38) { // UP  -  Challenge 1
+                    topValue = topValue - 10;
+                }
+                
+                // don't let the image go out of bounds
+                if (topValue < 100){
+                    topValue = 100;
+                }
+                else if (topValue > bottomValue){
+                    topValue = bottomValue; 
+                }
+                if (leftValue < 450){
+                    leftValue = 450;
+                }
+                else if (leftValue > rightValue){
+                    leftValue = rightValue;
+                }
+                console.log("topValue = "+topValue);
+                console.log("leftValue = "+leftValue);
+                console.log("bottomValue = "+bottomValue);
+                console.log("rightValue = "+rightValue);
+                update();
+            }
+        </script>
+
+
+

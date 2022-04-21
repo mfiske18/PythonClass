@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">Network</h1>
+        </div>
+    </div>
+    <h1 class="feed">Your Feed</h1>
+    <div class="container">
+        <div class="row">
+
+            <!-- left column -->
+            <div class="col-r">
+                <div class="card ">
+                    <!-- <div class="small-card"> -->
+                    <div class="center">
+                        <img src="assets/user.png" alt="user" class="avatar-s ">
+                    </div>
+
+
+                    <!-- </div> -->
+                    <Div class="center"> <a href="#">Add an avatar</a></Div>
+                    <h3 class="center">James Doe</h3>
+                </div>
+
+
+            </div>
+            <!-- right column -->
+            <div class="col-l">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Neil M</h3>
+                        <div>
+                            <span class="likes" id="Neil">9 like(s)</span>
+                            <button class="btn" onclick="addLike(0)">Like</button>
+                        </div>
+
+                    </div>
+                    <p class="user-line">I just setup this new discord bot, let me know what you all think <a
+                            href="#">link</a> </p>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Nichole K</h3>
+                        <div>
+                            <span class="likes" id="Nicole">12 like(s)</span>
+                            <button class="btn" onclick="addLike(1)">Like</button>
+                        </div>
+
+                    </div>
+                    <p class="user-line">Just finished my <a href="#" class="href">next comic</a> check it out.</p>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Jim R</h3>
+                        <div>
+                            <span class="likes" id="Jim">9 like(s)</span>
+                            <button class="btn" onclick="addLike(2)">Like</button>
+                        </div>
+
+                    </div>
+                    <p class="user-line">I can't sop listening to the <a href="#">new album</a> Who else is liking it?
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

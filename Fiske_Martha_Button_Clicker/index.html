@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><input class="searchbox"></input>Search</li>
+                <li><button class="btn" onclick="togglelogin(this)">Login</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-2">
+                <div class="card">
+                    <div class="col">
+                        <div class="card-body">
+                            <h2>ninja</h2>
+                            <span class="italic">noun</span><br>
+                            <span class="small">Plural: </span>
+                            <span class="italic">ninjas</span><br><br>
+                            <button class="like-btn" onclick="alert('Ninja was liked')">13 likes</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card-body">
+                            <p>A practitioner skilled in the
+                                <a href="#">Japanese</a> art of
+                            <a href=" #">ninjutsu</a>
+                            </p><br>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="col">
+                        <div class="card-body">
+                            <h2>ninja</h2>
+                            <span class="italic">noun</span><br>
+                            <span class="small">Plural </span>
+                            <span class="italic">ninjas</span><br><br>
+                            <button class="like-btn" onclick="alert('Ninja was liked')">37 likes</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card-body">
+                            <p>A 
+                                <a href="#">programmer</a> 
+                                who breaks down problems with 
+                                <a href=" #">zen</a>-like focus
+                            </p><br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- right column -->
+            <div class="col">
+                <div class="card">
+                    <div class="user-line">
+                        <span>Dojonary is defined by YOU</span>
+                        <button class="btn" onclick="removebutton(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

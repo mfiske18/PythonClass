@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /*added so images will be same size*/
+    height: 15px;
+    width: 15px;
+}
+
+.large {
+    /* for large images*/
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+#container {
+    width: 1500px;
+    margin: 0 auto;
+    /*centers the nav bar horizontally*/
+}
+
+#navbar {
+    background-color: black;
+    color:aliceblue;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5px 50px
+}
+
+#navbar,
+ul {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    /*gets rid of dots in list*/
+    margin: 10px;
+    padding:10px;
+    border: 2px solid lightgreen;
+
+}
+
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: silver;
+}
+
+#main-divs {
+    width: 300px;
+    background-color: goldenrod;
+    padding: 7px;
+    /*width of columns 1500/5*/
+}
+#guide-div{
+    width: 300px;
+    /* background-color: slategrey; */
+    padding: 7px;
+}
+
+h1 h3{
+    color: white;
+    margin-bottom: 15px;
+}
+p{
+    margin-bottom: 15px;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ratings p{
+    margin-top: 10px;
+    color: white;
+    /* align bubble and number */
+}
+
+/*  images on buck's were stretched out*/
+.ratings{
+    /* width: 20px;
+    height:20px; */
+    color: white;
+}
+
+#cookiebar{
+    display: flex;  
+    align-items: center;
+    width: 800px;
+    margin:0 auto;
+    position:relative; /*relative to it's current position */
+    bottom:100px; /* move bottom of cookie br up 70px will overlap divs above*/
+    background-color: grey;
+    justify-content: space-between;
+    padding: 0 50px;  /*add padding to left and right sides */
+}
+#cookiebar img{
+    /* buck's was too big */
+    width:100px;
+    height: 100px;
+} 
+#cookiebar button{
+    width: 75px;
+    height: 30px;
+    background-color: green;
+}
+
+#cookiebar p{
+    width:500px;
+}
+

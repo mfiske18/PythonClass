@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-style: "Comic Sans";
+
+
+}
+
+.main {
+    height: 700;
+    width: 350;
+    background-color: whitesmoke;
+    display: flex;
+     }
+.header{
+    width:100%;
+    height: 60px;
+    background-color: black;  
+    overflow: hidden;
+    padding-bottom: 20px;
+    display: flex;}
+
+
+   .options { 
+    font-size: 15px;
+    color: lightgrey;
+    background-color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    padding: 35px;
+    padding-left: 30%;
+} 
+.profile { 
+    font-size: 30px; 
+} 
+
+.myprofile { 
+    font-weight: bolder; 
+    color:whitesmoke;
+    align-items: center;
+} 
+
+.button { 
+    background-color: lightseagreen;
+    color: white;
+    padding: 2px;
+    margin-top: 20px;
+    margin-left: 600px;
+    padding-left: 5px;
+    padding-right: 5px;
+} 
+.left-column{
+    float: left;
+    width: 50%;
+    /* border: 5px solid rgb(80, 18, 226); */
+}
+  .right-column{
+    float: right;
+    width: 50%;
+ }  
+
+.user-card,.education,.connect{
+    
+  
+    margin: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    overflow: hidden;
+    padding-bottom: 20px;
+ }
+.card-header {
+    height: 50px;
+    background-color:teal;
+ }
+
+.user-circle {
+  border-radius: 50%;
+  background-color: white;
+  height: 50px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h1,h2,p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ h3 {
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+.map-marker{
+    background-color: white;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.settings{
+    
+    background-color: white;
+    height: 20px;
+    margin-left: 30px;
+ 
+}
+
+.small-header{
+    height: 50px;
+    background-color:rgb(72, 65, 65);
+    color: whitesmoke;
+    display: flex;
+}
+.small-header-text{
+   margin-top: 10px;
+   margin-left:10px;
+   display: flex;
+
+   
+}
+.tiny-font{
+   font-size: 15px;
+   margin-left: 30px;
+ }
+ 
+ .columns{
+     display:flex;
+ }
+
+
+.vert-align{
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one-digit {
+    background-color: grey;
+    color:rgb(72, 65, 65);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 15px; 
+    text-align: center;
+ 
+}
+
+.four-digit {
+    background-color: grey;
+    color:rgb(72, 65, 65);
+    border-radius: 50%;
+    height: 25px;
+    width: 40px;
+    font-size: 15px; 
+    text-align: center;
+}
+
+.view-more{
+    margin:20px;
+}
+
+.small-circle{
+    border-radius: 50%;
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
